@@ -1,0 +1,116 @@
+html, body{
+  padding: 0;
+  margin: 0;
+}
+
+*, *::before, *::after{
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to top left, #ff8a00, #2ee556b9);
+  height: 100vh;
+  
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.info-div{
+  text-align: center;
+}
+
+
+.info-div > p{
+  margin: 0;
+  padding: 0;
+}
+
+.digital-rep{
+  width: 20rem;
+  height: 15rem;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+
+.mail-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.email{
+  margin-right: .5rem;
+  
+}
+
+button{
+  width: 16rem;
+  height: 1.5rem;
+  display: flex;
+  border-radius: 3px;
+  outline: none;
+  border: none;
+  justify-content: center;
+  align-items: center;
+  outline-style: none;
+
+}
+
+a{
+  text-decoration: none;
+}
+
+
+
+.main-work{
+  width: 20rem;
+  border-radius: 5px;
+  background-color: black;
+  color: white; 
+}
+
+h2,h3,h4{
+  padding: 0;
+  margin: 0;
+}
+
+.body{
+  margin: 1rem;
+}
+
+.body > p{
+  line-height: 14px;
+  font-size: 12px;
+}
+
+.heading{
+  margin: 5px 0 5px 0;
+  padding:0;
+}
+
+p{
+  font-size: .9rem;
+}
+
+.footer{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+}
+
+.footer > img{
+  margin: 0 2rem 1rem .5rem;
+}
